@@ -9,7 +9,7 @@ const hasArrayElement = () =>{
     let array = [1,2,3,4,5];
     let result = array.indexOf(5)
     if(result !== -1){
-        return "Найден 1" + result
+        return "Найден " + result
     } else {
         return "Такого нет"
     }
